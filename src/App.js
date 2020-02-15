@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import UseRef from './useRef';
+import UseImp from './useImperativeHandle';
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <UseRef/>
+                <UseImp/>
             </header>
         </div>
     );
